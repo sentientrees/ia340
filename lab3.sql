@@ -34,6 +34,7 @@ insert into course(c_number,c_name,room,p_email)
 values ('c4','facebook','r1','p3@jmu.edu')
 --i need to modify the professor table first because the course table references the professor table
 
+
 --Q2.6
 update course
 set p_email='p3@jmu.edu'
