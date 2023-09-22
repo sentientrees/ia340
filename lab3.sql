@@ -25,7 +25,7 @@ values ('s_1@jmu.edu','c1'),
 ('s_4@jmu.edu','c2'),
 ('s_2@jmu.edu','c3'),
 ('s_3@jmu.edu','c3')
--- i had underscores in my student emails, this is why it's written like this
+--i had underscores in my student emails, this is why it's written like this
 --Q2.5
 insert into professor(p_name,p_email,office)
 values ('p3','p3@jmu.edu,'o3')
@@ -43,6 +43,15 @@ where p_email='p1@jmu.edu'
 delete from professor
 where p_email='p1@jmu.edu'
 
--- have to edit classes first before you remove a professor the class is referencing
+--have to edit classes first before you remove a professor the class is referencing because you can't have a class in the database wihtout a professor
 
 --Q2.7
+select * from enroll_list
+
+--Q2.8
+--class 1 has the most students
+
+--Q2.9
+select * from course
+
+--professor 3 teaches the most classes
